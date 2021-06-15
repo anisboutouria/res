@@ -1,0 +1,142 @@
+body{
+    margin: 200px;
+    margin-top: auto;
+}
+.logo-docplanner{
+    position: relative;
+    float: left;
+    width: 300px;
+}
+.navbar a {
+    position: relative;
+    float: right;
+    display: block;
+    color: #424040;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+
+}
+nav ul  {
+    list-style-type: none;
+    
+    
+    
+
+    
+}
+ 
+.navbar a.active{
+    color: powderblue;
+}
+.navbar a:hover {
+    
+    color: rgb(178, 238, 178);}
+
+.lead__logo{
+    display: block;
+    padding-top: 60px;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+     width: 36px;
+    
+}    
+h1{
+    color: powderblue;
+    text-align: center;
+    font-size: 35px;
+}
+.paragpaphs{
+    font-size: 17px;
+    line-height: 1.5;
+    display: flex;
+    align-content: center;
+    
+    
+
+}
+
+
+.p1{
+    float: right;
+    color: red;
+    width: 50%;
+    
+   
+}
+.p2{
+    float: left;
+    width: 50%;
+}
+
+.patients{
+    
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    
+}
+.forpatients{
+    background-color: rgb(164, 248, 164);
+    margin-right:5px;
+    width: 295px;
+    height: 300px;
+    color: white;
+    border-radius: 15px;
+    
+}
+.fordoctor{
+    background-color: rgb(72, 72, 223);
+    margin-right: 5px;
+    width: 295px;
+    height: 300px;
+    border-radius: 15px;
+}
+.forclinic{
+    background-color: rgb(3, 3, 19);
+    width: 295px;
+    height: 300px;
+    border-radius: 15px;
+}
+.patients h1{
+    color: white;
+    text-align: left;
+    margin-left: 25px;
+}
+.patients img{
+ width: 25px;
+ margin-left: 25px;
+}
+.patients h2{
+    margin-left: 25px;
+}
+.brands{
+    display: flex;
+    color: gray;
+    
+    
+
+    
+}
+.brands ul{
+    flex-direction: ROW;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    width: 600px;
+    height: 100px;
+}
+.brands li{
+    display: inline;
+}
+.brands img{
+    font-size: 30px;
+}
+.brands svg{
+    font-size: 20px;
+}
+.brands h1{
+    width: 300px;
+}
